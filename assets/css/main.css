@@ -1,10 +1,10 @@
 /* Markdown */
 :root{
---maincolor: red;
---bordercl:rebeccapurple;
+--maincolor:teal;
+--bordercl:#999;
 --callouctcolor:dodgerblue;
 --hovercolor:navy;
---darkMaincolor: #50fa7b;
+--darkMaincolor: cyan;
 }
 html {
   color: #232333;
@@ -59,10 +59,13 @@ ul {
 }
 ul li {
   text-indent: -2ch;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 1.5;
 }
 ul > li::before {
   content: '* ';
   font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
 }
 
 /* Images */
